@@ -13,31 +13,36 @@ html{
 }
 
 body{
-    
-    color: black;
+    background: linear-gradient(to top, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url('img/background.png');
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 header{
-    width: 100%;
-    height: 16vh;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 90%;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0,0,0,0));
+    background: linear-gradient(to left, rgba(6, 32, 65, 0.38), rgba(13, 65, 6, 0.38));
+    border-radius: 2rem;
 }
 header img{
-    width: 7.5rem;
-    height: 5rem;
+    width: 6.5rem;
+    height: 4rem;
     cursor: pointer;
-    text-shadow: 0 0 10rem green;
+    transition: .85s;
 }
 
-header img:hover, header span{
-    transform: scale(1.1);
-    transition: 0.5s;
+header img:hover{
+    transform: scale(1.05);
     display: flex;
     left: 110%; /* Move o texto para a direita para que ele seja visível */
-    opacity: 1;
+    transition: .85s;
 }
 header nav{
     display: flex;
@@ -52,21 +57,44 @@ header nav ul li{
     list-style: none;
 }
 header nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     transition: 1s;
 }
 
 header nav ul li, a:hover{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(44, 141, 68);
     transition: 0.5s;
 }
 
+.header-btns{
+    display: flex;
+
+    width: 40rem;
+    height: 7rem;
+}
+
+#baixar-btn, #criar_conta-btn, #login-btn{
+    display: flex;
+    font-family: Poppins, sans-serif;
+    padding: 5%;
+    margin-top: 4%;
+    margin-left: 1%;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    border: none;
+    border-radius: 10rem;
+    background: green;
+    
+    width: 80%;
+    height: 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 #inicio{
-    background: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0)), url('img/background.png');
-    background-position-y: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     height: 100vh;
 }
@@ -78,23 +106,23 @@ header nav ul li, a:hover{
 
 .img-container img{
     display: flex;
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 50rem;
-    height: 35rem;
+    margin-top: 12%;
+    margin-left: 5%;
+    width: 70rem;
+    height: 50rem;
     cursor: pointer;
     transition: 1s;
 }
 
 .img-container img:hover{
     transform: scale(1.1);
-
+    
     transition: 0.5s;
 }
 
 .img-content{
-    margin-top: 15%;
-    margin-right: 10%;
+    margin-top: 20%;
+    margin-left: 10%;
     width: 60rem;
     height: 20rem;
     display: flex;
@@ -131,8 +159,9 @@ header nav ul li, a:hover{
 }
 .img-content button:hover{
     transform: scale(1.05);
-    background: rgb(0, 200, 0);
-    color: white;
+    background: rgb(0, 180, 0);
+    color: black;
+    font-weight: bold;
 }
 
 .img-content h1, .img-content span{
