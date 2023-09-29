@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bora Catá</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- <img src="img/background.png" alt=""> -->
-
     <header>
         <div>
             <a href="#"><img src="img/recycle-icon.svg" alt="Bora Catá Logo"></a>
@@ -27,12 +27,13 @@
         </div>
 
         <div class="header-btns">
-            <button id="baixar-btn">Baixar</button>
+            <button id="baixar-btn" onclick="window.location.href = 'https://w3g3a5v6.ssl.hwcdn.net/upload2/game/2219123/8506870?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1696011547&Signature=uiUDDA7j%2F6F27tKlYd6IblzKYjYElhyKBTzYZv0gnsAr3TtFMS%2BL5Lhi41jduVO6vQXCrTtTMxIzMwkjMtaZ901xDmNkNmcKUQh7N0UBAB01JAZJa7JvXkfRItC1FqCZkCH8fMo6%2F%2FLXgJLRGf9QZmGyQko4EoHB9FhUHuWenxwrVh5AXXBCMga3gNBkYhEg306LTOUbp75iR8pWg%2FOAz7lci9ZZohMrYvJ5a80X5EFxuKP1thxF8em%2FS7m477tBr45WiFLvWpcsit3N8YHCFjH4jfh9MnRMDMok1877Io1rCvszZU1ArH2dkbw6JDjRwVit1U%2BFHD0CsxdK1sKU%2Fg==&hwexp=1696011807&hwsig=40f300b50eada459aa6670b14511deb6';">Download</button>
             <button id="criar_conta-btn">Criar Conta</button>
             <button id="login-btn">Entrar</button>
         </div>
 
     </header>
+    
 
     <main>
         <section id="inicio">
@@ -40,18 +41,19 @@
                 <div class="img-container">
                     <img src="img/boracata-logo.png" alt="Bora Catá Logo">
                     <div class="img-content">
-                        <h1>O <span>jogo</span> não é apenas, <span>ganhar</span> é <span>cuidar do nosso mundo</span>!</h1>
-                        <button>Baixar Agora</button>
+                        <h1>O <span>jogo</span> não é apenas <span>ganhar</span>, é <span>cuidar do nosso mundo</span>!</h1>
+                        <button id="saiba-mais-btn" onclick="window.location.href = '#sobre'">Saiba mais</button>
                     </div>
-                    
                 </div>
             </div>
-            
         </section>
+            
 
-        <div id="sobre">
-
-        </div>
+        <section id="sobre">
+            <div class="sobre-container">
+                <h1>teste</h1>
+            </div>
+        </section>
 
         <div id="tutorial">
 
@@ -63,7 +65,7 @@
     </main>
 
     <footer>
-        Todos os direitos reservados | <a href="#">Bora Catá</a> &copy; 2023
+        Todos os direitos reservados <a href="#">Bora Catá</a> &copy; 2023
     </footer>
 </body>
 </html>
