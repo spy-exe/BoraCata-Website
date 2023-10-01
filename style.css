@@ -75,7 +75,7 @@ header nav ul li, a:hover{
 }
 
 #baixar-btn, #criar_conta-btn, #login-btn{
-    display: flex;
+    display: flex
     font-family: Poppins, sans-serif;
     padding: 5%;
     margin-top: 4%;
