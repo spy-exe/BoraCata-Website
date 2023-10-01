@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,150;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,150;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/*----->Fez essa Parte Ricardo <----- */
 *{
     margin: 0;
     padding: 0;
@@ -188,4 +188,240 @@ footer{
     height: 5vh;
     position: end;
     background-color: white;
+}
+/*----->Fez essa Parte Ricardo <----- */
+
+
+
+
+/*----->Fez essa Parte Adrian <----- */
+#sobre{
+    width: 100%;
+    justify-items: center;
+    background-image: url(./img/background.png);
+    
+    display: flex;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    
+}
+
+.logosobre{
+    margin-top:-90px;
+   width: 350px;
+   margin-left: 250px;
+   border-radius: 10px;
+   box-shadow: 0 0 6rem rgb(255, 255, 255, 0.5);
+   cursor:pointer
+}
+.logosobre:hover{
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+
+.textosobre{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+#sobreboracata{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.slider{
+    margin: 0 auto ;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 100px;
+    
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid  #fff;
+    padding: 7px ;
+    border-radius:14px ;
+    cursor:pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+    
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+    ;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+   
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+    
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+    
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
+    
+}
+
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+
+
+
+.navigation-auto div{
+    border: 2px solid #34824D;
+    padding: 7px ;
+    border-radius: 14px;
+    cursor: pointer;
+}  
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 370px;
+    display:flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #34824D;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #34824D;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #34824D;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #34824D;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #34824D;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: #34824D;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: #34824D;
+}
+/*----->Fez essa Parte Adrian <----- */
+
+
+
+#tutorial{
+    width: 100%;
+    justify-items: center;
+    background-image: url(./img/background.png);
+    display: flex;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+
+.logo-tutorial1{
+    margin-top:-90px;
+    width: 350px;
+    margin-left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 6rem rgb(255, 255, 255, 0.5);
+    cursor:pointer;
+}
+
+
+.texto-tutorial-1{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.texto-tutorial-2{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.texto-tutorial-3{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+#tutorial-boracata-1{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#tutorial-boracata-2{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#tutorial-boracata-3{
+    font-size: 20px;
+    padding: 5px;
 }
