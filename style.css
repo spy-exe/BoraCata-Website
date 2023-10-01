@@ -361,3 +361,67 @@ footer{
 }
 /*----->Fez essa Parte Adrian <----- */
 
+
+
+#tutorial{
+    width: 100%;
+    justify-items: center;
+    background-image: url(./img/background.png);
+    display: flex;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+
+.logo-tutorial1{
+    margin-top:-90px;
+    width: 350px;
+    margin-left: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 6rem rgb(255, 255, 255, 0.5);
+    cursor:pointer;
+}
+
+
+.texto-tutorial-1{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.texto-tutorial-2{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.texto-tutorial-3{
+    background-color: white;
+    width: 750px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+#tutorial-boracata-1{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#tutorial-boracata-2{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#tutorial-boracata-3{
+    font-size: 20px;
+    padding: 5px;
+}
